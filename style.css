@@ -72,14 +72,14 @@ p{
 .weather h2{
     font-size: 45px;
     font-weight: 500;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0px 20px;
     margin-top: 50px;
 }
 
@@ -87,7 +87,10 @@ p{
     display: flex;
     align-items: center;
     text-align: left;
+}
 
+.col p{
+    padding-left: 10px;
 }
 
 .col img{
@@ -98,4 +101,16 @@ p{
 .humidity , .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px ;
+    font-size: 24px;
+    margin-top: 30px;
+    display: none;
 }
